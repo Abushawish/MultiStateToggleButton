@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sample_activity_margin_15">15dp</dimen>
+    <dimen name="mstib_size_30">30dp</dimen>
+    <dimen name="mstib_size_50">50dp</dimen>
+</resources>

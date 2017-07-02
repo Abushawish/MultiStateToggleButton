@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.abushawish.multistatetogglebutton.sample.SampleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/sample_activity_margin_15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mstb_desc_1"
+            android:textAlignment="center"/>
+
+        <ca.abushawish.multistatetogglebutton.MultiStateToggleButton
+            android:id="@+id/mstb_sample_button_1"
+            android:layout_width="@dimen/mstib_size_30"
+            android:layout_height="@dimen/mstib_size_30"
+            android:layout_marginLeft="@dimen/sample_activity_margin_15"
+            android:layout_marginStart="@dimen/sample_activity_margin_15"
+            android:layout_marginTop="@dimen/sample_activity_margin_15"
+            android:background="@android:color/transparent"
+            app:drawable_resource_list="@array/flash_images_array"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/sample_activity_margin_15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mstb_desc_2"
+            android:textAlignment="center"/>
+
+        <ca.abushawish.multistatetogglebutton.MultiStateToggleButton
+            android:id="@+id/mstb_sample_button_2"
+            android:layout_width="@dimen/mstib_size_50"
+            android:layout_height="@dimen/mstib_size_50"
+            android:layout_marginTop="@dimen/sample_activity_margin_15"
+            android:background="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

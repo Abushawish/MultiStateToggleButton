@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStateToggleButton">
+        <!-- A reference to an array of drawable resource IDs from arrays.xml  -->
+        <attr name="drawable_resource_list" format="reference"/>
+    </declare-styleable>
+</resources>
