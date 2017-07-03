@@ -42,7 +42,7 @@ the above created integer-array as it's value.
             app:drawable_resource_list="@array/flash_images_array"/>
 ```
 
-Alternativaly, programatically:
+**Alternativaly, programatically:**
 
 Initialize the MultiStateToggleButtonPopulate and a List<Integer> of your drawable resource IDs.
 
