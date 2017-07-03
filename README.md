@@ -1,9 +1,7 @@
 MultiStateToggleButton
 ===============
 
-Android's regular ToggleButton offers only two states for the toggle (checked and unchecked), MultiStateToggleButton fixes that by 
-offering as many states as needed depending on the number of drawable resource IDs in the list passed into this class, using 
-mMultiStateToggleButton.setDrawableResourceList(List<Integer list) or assigning an XML array into the drawable_resource_list attribute in the XML.
+Android's regular ToggleButton offers only two states for the toggle (checked and unchecked), MultiStateToggleButton fixes that by offering as many states as needed depending on the number of drawable resource IDs passed in.
 
 Including in your project
 -------------------------
