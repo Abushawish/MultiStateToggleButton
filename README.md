@@ -3,7 +3,7 @@ MultiStateToggleButton
 
 Android's regular ToggleButton offers only two states for the toggle (checked and unchecked), MultiStateToggleButton fixes that by offering as many states as needed depending on the number of drawable resource IDs passed in.
 
-[gif]
+![](https://github.com/Abushawish/MultiStateToggleButton/blob/master/mstb-record.gif?raw=true){:height="50%" width="50%"}
 
 Including in your project
 -------------------------
@@ -102,4 +102,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[gif]: https://github.com/Abushawish/MultiStateToggleButton/blob/master/mstb-record.gif
+[gif]: 
