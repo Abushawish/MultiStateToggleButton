@@ -28,8 +28,7 @@ Create an integer-array of drawable resource IDs in your [arrays.xml](https://de
 </resources>
 ```
 
-Then, in your layout file, add the 'MultiStateToggleButton' with the 'app:drawable_resource_list' attribute and the reference to
-the above created integer-array as it's value.
+Then, in your layout file, add the 'MultiStateToggleButton' with the 'app:drawable_resource_list' attribute and the reference to the above created integer-array as it's value.
 
 ```xml
 <ca.abushawish.multistatetogglebutton.MultiStateToggleButton
@@ -42,7 +41,7 @@ the above created integer-array as it's value.
 
 **Alternativaly, programatically:**
 
-Initialize the MultiStateToggleButtonPopulate and a List<Integer> of your drawable resource IDs.
+Initialize the ```MultiStateToggleButton``` and populate a ```List<Integer>``` of your drawable resource IDs.
 
 ```java
 private MultiStateToggleButton mMultiStateToggleButton = (MultiStateToggleButton) findViewById(R.id.mstb_sample_button);
