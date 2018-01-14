@@ -1,4 +1,4 @@
-MultiStateToggleButton
+MultiState Toggle Button
 ===============
 
 Android's ToggleButton offers only two states, MultiStateToggleButton fixes this by offering as many states depending on the number of drawable resources passed in. 
